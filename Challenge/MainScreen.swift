@@ -37,7 +37,7 @@ class MainScreen: UIViewController, UIImagePickerControllerDelegate, UINavigatio
         if let selectedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
             displayImage.image = selectedImage
             //commentb
-            //comment
+            //comment2
         }
             imagePicker.dismiss(animated: true, completion: nil)
 
